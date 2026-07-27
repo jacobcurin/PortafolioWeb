@@ -1,7 +1,63 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Contacto";
 }
+<div class="container">
+    <section class="contact-section">
+        <h1>Contacto</h1>
+        <p class="subtitle">
+            Buscando la próxima oportunidad para seguir creciendo como desarrollador. Si tienes un proyecto en mente o una vacante disponible, este es un buen lugar para empezar la conversación
+        </p>
+        <div class="contact-wrapper">
+            <div class="card contact-form-card">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" id="Nombre" name="from_name" placeholder="Tu nombre" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Correo electrónico</label>
+                        <input type="email" id="Email" name="from_email" placeholder="tucorreo@ejemplo.com" required />
+                    </div>
 
-<h1>Contacto</h1>
-
+                    <div class="form-group">
+                        <label for="Asunto">Asunto</label>
+                        <input type="text" id="Asunto" name="subject" placeholder="¿De qué se trata?" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea id="Mensaje" name="message" rows="6" placeholder="Contame los detalles..." required></textarea>
+                    </div>
+                    <div class="form-group captcha-group">
+                        <label>Verificación: selecciona el <span id="captcha-target">gato</span> <span aria-hidden="true">🔒</span></label>
+                        <div class="captcha-options" id="captcha-options"></div>
+                        <p id="captcha-status"></p>
+                    </div>
+                    <button type="submit" class="btn" id="submit-btn">Enviar mensaje</button>
+                    <p id="form-status"></p>
+                </form>
+            </div>
+            <div class="card contact-info-card">
+                <h3>Información de contacto</h3>
+                <ul class="contact-info-list">
+                    <li>
+                        <span class="info-label">Email</span>
+                        <a href="mailto:jacob.curin.9@gmail.com">jacob.curin.9@gmail.com</a>
+                    </li>
+                    <li>
+                        <span class="info-label">Pasaje rio belice 3316, Puente Alto</span>
+                        <span>Santiago, Chile</span>
+                    </li>
+                </ul>
+                <h3>Redes</h3>
+                <div class="social-links">
+                    <a href="https://github.com/jacobcurin" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                        GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
