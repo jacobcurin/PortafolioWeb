@@ -60,8 +60,8 @@ Puedes visitar el portafolio aquí:
 
 ## 📫 Contacto
 
-- LinkedIn: [https://linkedin.com/in/TU-USUARIO](https://www.linkedin.com/in/jacob-curin-antinao-2015021ba/)
-- GitHub: [https://github.com/TU-USUARIO](https://github.com/jacobcurin)
+- LinkedIn: https://www.linkedin.com/in/jacob-curin-antinao-2015021ba/
+- GitHub: https://github.com/jacobcurin
 - Email: jacob.curin.9@gmail.com
 
 ---
