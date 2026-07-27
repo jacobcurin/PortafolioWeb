@@ -1,11 +1,109 @@
-﻿@{
-    ViewData["Title"] = "Proyectos";
-}
-<h1>@ViewData["Title"]</h1>
+﻿<div class="projects-container">
 
-<h6>Muebles Multifuncionales</h6>
-<img src="#" alt="Foto MM" />
-<p>Página web responsive creada para un cliente que consta en exhibir muebles hechos a la medida por el</p>
-<img src="#" alt="JavaScript" />
-<img src="#" alt="React"/>
+    <h1>Mis Proyectos</h1>
 
+    <p class="subtitle">
+        Algunos de los proyectos que he desarrollado para aprender, practicar
+        y mejorar mis conocimientos en C# y el ecosistema .NET.
+    </p>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="~/img/api.png" alt="Consumo de API REST" />
+        </div>
+
+        <div class="project-content">
+            <div class="content-summary">
+                <h2>Consumo de API REST</h2>
+                <p>
+                    Aplicación web desarrollada con ASP.NET Core que consume una API
+                    REST pública para obtener una lista de clientes y mostrar la
+                    información en una interfaz web, con opción de exportarla a Excel.
+                </p>
+                <div class="badges">
+                    <span>C#</span>
+                    <span>ASP.NET Core MVC</span>
+                    <span>HttpClient</span>
+                    <span>REST API</span>
+                    <span>Excel</span>
+                </div>
+                <button class="details-btn">
+                    Ver detalles
+                    <span class="arrow">▼</span>
+                </button>
+            </div>
+
+            <div class="details">
+                <button class="close-btn">✕ Cerrar</button>
+                <h4>Lo que aprendí</h4>
+                <p>
+                    Aprendí a consumir servicios REST utilizando HttpClient,
+                    procesar respuestas JSON e integrar la exportación de datos
+                    a archivos Excel dentro de una aplicación ASP.NET Core MVC.
+                </p>
+                <h4>Mayor desafío</h4>
+                <p>
+                    Comprender el flujo completo de comunicación con una API,
+                    interpretar la información recibida y transformarla para
+                    presentarla de forma clara y permitir su exportación.
+                </p>
+                <div class="project-buttons">
+                    <a href="https://github.com/jacobcurin/UserCatalogClient" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
+                    <a href="https://usercatalogclient.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="~/img/mueblesMultifuncional.png" alt="Muebles Multifuncional" />
+        </div>
+
+        <div class="project-content">
+            <div class="content-summary">
+                <h2>Muebles Multifuncional</h2>
+                <p>
+                    Aplicación web desarrollada con React para una empresa dedicada a
+                    la fabricación y venta de muebles. Incluye una página principal,
+                    catálogo de productos, información corporativa y un formulario de
+                    contacto, ofreciendo una navegación moderna e intuitiva.
+                </p>
+                <div class="badges">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>React Router</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Slick Carousel</span>
+                </div>
+                <button class="details-btn">
+                    Ver detalles
+                    <span class="arrow">▼</span>
+                </button>
+            </div>
+
+            <div class="details">
+                <button class="close-btn">✕ Cerrar</button>
+                <h4>Lo que aprendí</h4>
+                <p>
+                    Aprendí a desarrollar aplicaciones con React utilizando una
+                    arquitectura basada en componentes reutilizables, gestionando
+                    la navegación mediante React Router y el estado de la aplicación
+                    con Hooks como <strong>useState</strong>.
+                </p>
+                <h4>Mayor desafío</h4>
+                <p>
+                    Diseñar una interfaz moderna y organizada que ofreciera una
+                    buena experiencia de usuario, estructurando el proyecto en
+                    componentes reutilizables y manteniendo una navegación clara
+                    entre las distintas secciones del sitio.
+                </p>
+                <div class="project-buttons">
+                    <a href="https://github.com/jacobcurin/MueblesMultifuncional" target="_blank" rel="noopener noreferrer" class="btn">GitHub</a>
+                    <a href="https://muebles-multifuncional.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
