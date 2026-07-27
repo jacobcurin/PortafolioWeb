@@ -146,7 +146,7 @@
 
         renderCaptcha();
 
-        // --- Inicializar EmailJS (al final, para no bloquear el resto si falla) ---
+        // --- Inicializar EmailJS---
         if (typeof emailjs !== "undefined") {
             emailjs.init("qEvn2m6r8DFolCecT");
         } else {
