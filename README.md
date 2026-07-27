@@ -56,7 +56,7 @@ Proyecto desarrollado con React para una tienda de muebles, enfocado en una inte
 
 Puedes visitar el portafolio aquí:
 
-**🔗 [https://portafolioweb-oan5.onrender.com/)**
+**🔗 https://portafolioweb-oan5.onrender.com/**
 
 ## 📫 Contacto
 
