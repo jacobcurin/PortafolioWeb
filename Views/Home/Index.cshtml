@@ -204,8 +204,8 @@
                         <p class="course-platform">Udemy</p>
                     </div>
 
-                    <span class="course-status in-progress">
-                        En curso
+                    <span class="course-status completed">
+                        Completado ✓
                     </span>
 
                 </div>
@@ -223,6 +223,48 @@
                     <span>POO</span>
                     <span>Git</span>
                     <span>GitHub</span>
+                </div>
+
+                <button type="button"
+                        class="certificate-link"
+                        data-bs-toggle="modal"
+                        data-bs-target="#certificateModal">
+                    Ver certificado
+                </button>
+
+            </div>
+
+        </div>
+        <div class="modal fade"
+             id="certificateModal"
+             tabindex="-1"
+             aria-labelledby="certificateModalLabel"
+             aria-hidden="true">
+
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+
+                <div class="modal-content certificate-modal">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="certificateModalLabel">
+                            Certificado - Desarrollo Web
+                        </h5>
+
+                        <button type="button"
+                                class="btn-close btn-close-white"
+                                data-bs-dismiss="modal"
+                                aria-label="Cerrar">
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <img src="~/img/CertificadoCsharp.jpg"
+                             alt="Certificado del curso Desarrollo Web con JavaScript, HTML5, CSS3 y Node.js"
+                             class="certificate-image" />
+
+                    </div>
+
                 </div>
 
             </div>
@@ -295,7 +337,7 @@
 
                     <div class="modal-body">
 
-                        <img src="~/img/mueblesMultifuncional.png"
+                        <img src="~/img/CertificadoFrontend.jpg"
                              alt="Certificado del curso Desarrollo Web con JavaScript, HTML5, CSS3 y Node.js"
                              class="certificate-image" />
 
